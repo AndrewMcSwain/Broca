@@ -1,0 +1,15 @@
+.header {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.header h1{
+  display: inline;
+  text-align: center;
+}
+
+.header h2{
+  display: inline;
+  text-align: center;
+}

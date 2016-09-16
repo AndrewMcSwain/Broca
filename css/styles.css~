@@ -1,0 +1,32 @@
+.opener {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  background-image:url("../images/blue_brain.jpg");
+  background-repeat: no-repeat;
+  @media{
+  
+  @media(min-width:800px){
+ 
+  };
+}
+
+.opener h1{
+  display: block;
+  text-align: center;
+}
+
+.opener h2{
+  display: block;
+  text-align: center;
+}
+
+.explicatoryOverlay {
+  display: block;
+  width: 100%;
+}
+
+.explicatoryOverlay h3 {
+  text-align: center;
+}
+
