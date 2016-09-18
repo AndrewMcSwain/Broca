@@ -1,18 +1,23 @@
 body{
 width:100%;
+margin: 0 auto;
 }
 .opener {
   display: block;
   width: 100%;
-  margin: 0;
+  margin: -14% 0 -15px 0;
+  padding:30% 0;
   background-repeat: no-repeat;
-  background-color:#efead6; 
+  background-image: url("../images/blue_brain.jpg");
+  background-size: 100%;
+  background-position:40%;
+  background-color: black;
 }
 
 .opener h1{
   display: block;
   text-align: center;
-  color: #812200;
+  color: #e8ff2a;
   font-size: 200px;
 }
 
@@ -20,6 +25,7 @@ width:100%;
   display: block;
   text-align: center;
 }
+
 
 .explicatoryOverlay {
   display: block;
