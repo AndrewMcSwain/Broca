@@ -1,24 +1,30 @@
 body{
 width:100%;
+margin:0 auto;
 }
 .opener {
   display: block;
   width: 100%;
-  margin: 0;
+  margin:0 -50px 0 0;
   background-repeat: no-repeat;
   background-color:#efead6; 
+  padding-bottom: 80px;
 }
 
 .opener h1{
   display: block;
   text-align: center;
   color: #812200;
-  font-size: 200px;
+  font-size: 240px;
+  margin: 0;
 }
 
 .opener h2{
   display: block;
   text-align: center;
+  color: brown;
+  font-size: 60px;
+margin: 0 30px 0 0px;
 }
 
 .explicatoryOverlay {
