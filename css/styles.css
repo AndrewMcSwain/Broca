@@ -2,19 +2,17 @@
   display: block;
   width: 100%;
   margin-top: 0;
-  background-image:url("../images/blue_brain.jpg");
   background-repeat: no-repeat;
-  @media(min-width:320px){
-      background-color:#e8ff2a;
-  }
+  background-color:#e8ff2a;
+  
+}
 
 .opener h1{
   display: block;
   text-align: center;
-  color: #e8ff2a;
-  @media(min-width:320px){
-      color:#efead6;
-      font-size: 20px;
+ /* color: #e8ff2a;*/
+  color:#efead6;
+  font-size: 20px;
 }
 
 .opener h2{
