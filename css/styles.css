@@ -7,10 +7,11 @@ body{
   display: block;
   position: relative;
   width: 100%;
-  margin:0 -50px 0 0;
+  margin:0 0 0 0;
   background-repeat: no-repeat;
   background-color:#efead6; 
   padding-bottom: 200px; 
+  box-shadow:0px 30px 60px 0px #d5c68a;
 }
 
 .opener:before {
@@ -46,7 +47,7 @@ margin: 0 30px 0 0px;
   display: block;
   width: 100%;
   background-color: #bcbbba;
-  margin-top: -15px;
+  margin-top: 0;
 padding: 0 0 120px;
 }
 
@@ -61,5 +62,9 @@ width: 70%;
 margin: 0 4% 0 15%;
 background-color:#bfb58f;
 padding: 5%;
+box-shadow: -5px 15px 10px 0px rgba(0,0,0,.7);
+border-bottom-color: #807a3e;
+border-bottom-width:15px;
+border-bottom-style: solid;
 }
 
