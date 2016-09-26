@@ -1,33 +1,92 @@
+body{
+  width:100%;
+  margin:0 auto;
+}
+
 .opener {
   display: block;
+  position: relative;
   width: 100%;
-  margin-top: 0;
-  background-image:url("../images/blue_brain.jpg");
+  margin:0 0 0 0;
   background-repeat: no-repeat;
-  @media(min-width:320px){
-      background-color:#e8ff2a;
+  background-color:#efead6; 
+  padding-bottom: 200px; 
+  box-shadow:0px 30px 60px 0px #d5c68a;
+}
+
+.opener:after {
+    content: "What does Broca mean?";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0,0,0,.8);
+    z-index:5;
+    bottom:0;
+    text-align: center;
+    font-size:40px;
+}
+
+.opener:before {
+  content: "";
+  position: absolute;
+  z-index:0;
+  width: 100%;
+  height: 100%;
+  background-image:url("../tiny.jpg");
+  background-position: center 10%;
+  background-size: 100% 450px;
+  background-repeat: no-repeat;
+opacity:.7;
+  background-attachment: fixed;
+
   }
+
+  
+
 
 .opener h1{
   display: block;
+  position: relative;
+  z-index:2;
   text-align: center;
-  color: #e8ff2a;
-  @media(min-width:320px){
-      color:#efead6;
-      font-size: 20px;
+  color: #812200;
+  font-size: 240px;
+  margin: 0px;
+  padding-top: 100px;
 }
 
 .opener h2{
   display: block;
+  position: relative;
   text-align: center;
+  color: brown;
+  font-size: 60px;
+margin: -10px 0px 0 12px;
+   z-index: 5;
 }
 
 .explicatoryOverlay {
   display: block;
   width: 100%;
+  background-color: #bcbbba;
+  margin-top: 0;
+padding: 0 0 120px;
 }
 
 .explicatoryOverlay h3 {
   text-align: center;
+}  
+
+#explicatoryOverlayState2{
+display: inline-block;
+position:relative;
+width: 70%;
+margin: 0 4% 0 15%;
+background-color:#bfb58f;
+padding: 5%;
+box-shadow: -5px 15px 10px 0px rgba(0,0,0,.7);
+border-bottom-color: #807a3e;
+border-bottom-width:15px;
+border-bottom-style: solid;
 }
 
