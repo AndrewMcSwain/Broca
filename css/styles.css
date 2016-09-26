@@ -71,22 +71,37 @@ margin: -10px 0px 0 12px;
   background-color: #bcbbba;
   margin-top: 0;
 padding: 0 0 120px;
+         z-index:-1;
+ }
+#explicatoryOverlayState2:before {
+  content: "";
+  position: absolute;
+  z-index:-55;
+width: 124%;
+  height: 350px;
+  background-image:url("../tiny.jpg");
+opacity: 1;
+  background-position: center center;
+  top:0;
+  left: -20%;
 }
+  
 
 .explicatoryOverlay h3 {
   text-align: center;
 }  
 
 #explicatoryOverlayState2{
-display: inline-block;
+display: block;
 position:relative;
 width: 70%;
-margin: 0 4% 0 15%;
+margin: 10% 4% 0 15%;
 background-color:#bfb58f;
 padding: 5%;
 box-shadow: -5px 15px 10px 0px rgba(0,0,0,.7);
 border-bottom-color: #807a3e;
 border-bottom-width:15px;
 border-bottom-style: solid;
+z-index:990;
 }
 
