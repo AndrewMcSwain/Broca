@@ -10,26 +10,35 @@ body{
   margin:0 0 0 0;
   background-repeat: no-repeat;
   background-color:#efead6; 
-  padding-bottom: 200px; 
+  padding: 800px 0;
   box-shadow:0px 30px 60px 0px #000000;
+  z-index:0;
 }
 
-.opener:after {
-    content: "What does Broca mean?";
-    position: absolute;
+.opener .secondItem {
+    position: relative;
     width: 100%;
-    height: 100px;
+    height: 400px;
     background-color:rgba(0,0,0,.8);
-    z-index:5;
+    z-index:0;
     bottom:0;
     text-align: center;
     font-size:40px;
 }
 
+.opener .secondItem h2 {
+	display: block;
+  text-align: center;
+  color: #212121;
+  font-size: 80px;
+  margin: 100px 0px 0 12px;
+  z-index: 5
+}
+
 .opener:before {
   content: "";
   position: absolute;
-  z-index:0;
+  z-index:1;
   width: 100%;
   height: 100%;
   background-image:url("../brain edited.png");
@@ -55,16 +64,53 @@ opacity:.4;
   padding-top: 100px;
 }
 
-.opener h2{
+
+.opener .subheading{
   display: block;
   position: relative;
   text-align: center;
   color: brown;
-  font-size: 60px;
+  font-size: 70px;
 margin: -10px 0px 0 12px;
    z-index: 5;
 }
 
+.opener .subheading:before{
+	content:"";
+	position:absolute;
+	width: 110%;
+	height: 400px;
+	/*background-color: rgba(148,152,162,.8);
+*/
+
+}
+.opener .secondSubheading{
+	display: block;
+  position: relative;
+  text-align: center;
+  color: brown;
+  font-size: 80px;
+  margin: 100px 0px 0 12px;
+  z-index: 5;
+}
+#clincher{
+ 	display: block;
+  position: relative;
+  text-align: center;
+  color: #212121;
+  font-size: 100px;
+  margin: -10px 0px 0 12px;
+  z-index: 5;
+ }
+.opener p{
+	 display: block;
+  position: relative;
+  text-align: center;
+  color: #812200;
+  font-size: 60px;
+  margin: 40px 0px 0 12px;
+  z-index: 5;
+}
 .explicatoryOverlay {
   display: block;
   width: 100%;
@@ -73,10 +119,30 @@ margin: -10px 0px 0 12px;
 padding: 0 0 120px;
          z-index:-1;
  }
-#explicatoryOverlayState2:before {
-  content: "";
+
+#temp1{
+display:block;
+position:relative;
+clear:both;
+height: 600px;
+}
+
+#temp1 img {
+	display:block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 600px;
+	width: 100%;
+	z-index: 0;
+	opacity: .8;
+}
+.clearfix:after { content: "."; visibility: hidden; display: block; height: 0; clear: both; }
+
+#temp:before {
+  content: ".";
   position: absolute;
-  z-index:-55;
+  z-index:0;
 width: 124%;
   height: 350px;
   background-image:url("../tiny.jpg");
@@ -86,7 +152,19 @@ opacity: 1;
   left: -20%;
 }
   
+.container{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
 
+.container img {
+	height: 700px;
+	width: 900px;
+	position: relative;
+}
 .explicatoryOverlay h3 {
   text-align: center;
 }  
@@ -104,4 +182,3 @@ border-bottom-width:15px;
 border-bottom-style: solid;
 z-index:990;
 }
-
